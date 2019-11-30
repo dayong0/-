@@ -16,7 +16,7 @@
       </mt-tab-item>
     </mt-tabbar>
 
-    <mt-tab-container v-model="active"  swipeable=false>
+    <mt-tab-container v-model="active"  swipeable>
       <mt-tab-container-item id="外卖">
         <mt-cell v-for="n in 10" title="tab-container 1" :key="n">外卖</mt-cell>
       </mt-tab-container-item>
@@ -35,6 +35,7 @@ export default {
         return {
             selected:"",
             active:"我的"
+            
         }
     },
     watch:{
