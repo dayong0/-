@@ -20,12 +20,7 @@ export default {
            
             //问题：mint-ui自带图标外观差，不能满足商品化水平要求。需要去专业图标库选用
             //阿里巴巴旗下的图标库 www.iconfont.cn
-        });
-        
-    }
-    
+        }); 
+    }  
 }
 </script>
-<style src="">
-
-</style>
