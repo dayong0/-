@@ -12,12 +12,17 @@ import Exam04 from "./components/exam_dayong/Exam04RadioAndChecklist"
 import Exam05 from "./components/exam_dayong/Exam05TagContainer.vue"
 import Exam06 from "./components/exam_dayong/Exam06Tabbar"
 import Exam07 from "./components/exam_dayong/Exam07-1Father.vue"
+import Exam08 from "./components/exam_dayong/Exam08Canvas"
+import Exam09 from "./components/exam_dayong/Exam09ECharts.vue"
 import WeChatHomeDayong from "./components/weChat_dayong/Home_dayong.vue"
+
 Vue.use(Router)
 export default new Router({
   //2.为组件指定访问路径,path指定组件路径，components指定组件名称
   routes: [
     {path:'/WeChat',component:WeChatHomeDayong},
+    {path:'/Exam09',component:Exam09},
+    {path:'/Exam08',component:Exam08},
     {path:'/Exam07',component:Exam07},
     {path:'/Exam06',component:Exam06},
     {path:'/Exam05',component:Exam05},

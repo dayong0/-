@@ -26,6 +26,11 @@ import "mint-ui/lib/style.css"
 //3.将mint-ui注册vue实例
 Vue.use(MintUI)
 
+
+// 引入echarts
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
+
 new Vue({
   router,
   render: h => h(App)
